@@ -1,9 +1,9 @@
 # A collaborative project (social experminent) 
 
 This repo aims to answer the question:
-"Can a group of random anonymous **programmers** of variable skillset manage to build something together?"
+"Can a group of random anonymous **programmers** of variable skillset manage to build a game together?"
 
-Because most of the people who see this repo will likely have little to no experience with writing software of this nature,I fully expect this project to crash and burn if I start with something too ambitious so Im trying to keep the scope of this project small (but not too small) to start. The people viewing this may not even know git or have **ANY** experience with languages like C/C++/golang/Rust. Game programming is a multi-diciplinary activity which a newbie may not have. This phase is to help weaker programmers participate and gain something.  
+Because most of the people who see this repo will likely have little to no experience with writing software of this nature,I fully expect this project to crash and burn if I start with something too ambitious so Im trying to keep the scope of this project small (but not too small) to start. The people viewing this may not even know git or have **ANY** experience with languages like C/C++/golang/Rust. Game programming is a multi-diciplinary activity which a newbie may not have. Breaking this project into phases should help weaker programmers participate and gain something out of the whole thing.  
 
 # Phase 1 - start with something simple
 
@@ -52,3 +52,8 @@ I strongly recommend you use VScode with the following plugins:
 
 I also suggest you use linux (Ubuntu 18.04+ ) because you WILL run into linking problems currently if you try to compile on windows.
 These linking problems **CAN** be resolved, but it's easier if you just use linux for now.   
+
+# Guidelines
+- opt to use iterators where possible
+- try to write make comments into your function and variable names (self document your code) 
+- In this project `Unsafe` is **allowed**, you CAN use it just make sure you put a comment justifying your decision and include unit tests. Please try to avoid using it all over the place tho
