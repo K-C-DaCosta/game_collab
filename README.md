@@ -27,11 +27,12 @@ The solution for state management is , again, handled by US and is going to be s
 ## Why rust? 
 I'm chosing rust because:
 - if you already know C/C++ it should be easy to get into
+- if you **DON'T** know C/C++ then rust will be a way more forgiving experience
 - outputs reasonably fast machine code, so its good for applications like this
 - has a strong but simple type system
 - documentation uses markdown so no need to learn new syntax for that there
 - has built in testing infastructure
-- has a good module system
+- has an actual module system 
 - has good wasm support ( its easier to cross compile projects to wasm than using other languages )
 - has good error messages 
 - newer programmers will be prevented from adding obvious bugs to the code base, thanks to the borrow checker
@@ -39,4 +40,15 @@ I'm chosing rust because:
 
 # Phase 2 - do something complicated 
 
-A more ambitious project (a 3D, multiplayer game )  
+A more ambitious project (3D? multiplayer? )
+i'll think about expanding this part when we get there.  
+
+
+# Developer Enviroment
+
+I strongly recommend you use VScode with the following plugins:
+- rust analyzer (amazing intellisense)
+- CodeLLDB ( for debugging )
+
+I also suggest you use linux (Ubuntu 18.04+ ) because you WILL run into linking problems currently if you try to compile on windows.
+These linking problems **CAN** be resolved, but it's easier if you just use linux for now.   
