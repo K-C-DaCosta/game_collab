@@ -50,10 +50,11 @@ I strongly recommend you use VScode with the following plugins:
 - rust analyzer (amazing intellisense)
 - CodeLLDB ( for debugging )
 
-I also suggest you use linux (Ubuntu 18.04+ ) because you WILL run into linking problems currently if you try to compile on windows.
-These linking problems **CAN** be resolved, but it's easier if you just use linux for now.   
+I also suggest you use linux (Ubuntu 18.04+ / Fedora / whatever ) because you WILL run into linking problems currently if you try to compile on windows.
+These linking problems on windows **CAN** be resolved, but it's easier if you just use linux for now.   
 
 # Guidelines
-- opt to use iterators where possible
-- try to write make comments into your function and variable names (self document your code) 
-- In this project `Unsafe` is **allowed**, you CAN use it just make sure you put a comment justifying your decision and include unit tests. Please try to avoid using it all over the place tho
+- opt to use iterators over for loops where possible
+- try to write descriptive definitions into your functions and variables (self document your code) 
+- In this project `Unsafe` is **allowed**. You can use it just make sure you put a comment justifying your decision and include unit tests
+(Opengl code doesn't need comments or unit tests). Please try to avoid using it all over the place tho
