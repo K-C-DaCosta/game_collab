@@ -1,0 +1,11 @@
+[package]
+name = "game_collab"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+# has an audio mixer im working on here  
+fluffl = {git="https://github.com/K-C-DaCosta/fluffl" , branch = "mixer"}
